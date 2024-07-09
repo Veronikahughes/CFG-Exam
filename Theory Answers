@@ -1,0 +1,49 @@
+Section 1: Theory Questions
+
+1.1	
+A primary key is a field in a table that uniquely identifies each record in that table; it must contain unique values and can’t be NULL. A foreign key is a field in a table that refers to the primary key in another table. It establishes a relationship between the two tables and ensures referential integrity.	2 marks
+
+1.2	
+Undefined is a variable that has been declared but not assigned a value. It is a type and value in JS.Null is an assignment value that represents no value or no object. It is an intentional absence of any object value.	2 marks
+
+1.3	
+Commit is a commend that saves changes to the local repository. It creates a snapshot of the project at a specific point in time. 
+Push is a command that uploads local repository content to a remote repository – it updates the remote repository with local commits.	2 marks
+
+1.4
+Google maps API allows developers to embed Google Maps on webpages using a JS or Flash interface. It enables features like displaying maps, adding markets and providing directions
+Twitter API enables developers to interact with twitter data. It allows functionalities such as reading tweets.	4 marks
+
+1.5	
+1.	Defining product backlog – creating and prioritsing list of tasks, features and requirements for dev team
+2.	Stakeholder communication – line of communication between stakeholders and dev team
+3.	Spring planning – collaboration with team to plan and define goals for each sprint
+4.	Acceptance criteria – defining and confirming acceptance criteria for each user story to ensure final product meets required standards	4 marks
+
+1.6	
+1.	INNER JOIN selects records that have matching values in both tables
+Example - retrieving a list of customers and their orders where both customer and order exist e.g.
+SELECT Customers.CustomerID, Orders.OrderID
+FROM Customers
+INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
+2.	LEFT JOIN selects all records from the left table and the matched records from the right table. Records from the left table with no match in the right table will still be included.
+Example -  Retrieving all customers and their orders, including customers who have not placed any orders.
+SELECT Customers.CustomerID, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;	4 marks
+
+1.7
+Synchronous Functions execute tasks sequentially. Each task waits for the previous one to complete before starting.
+Asynchronous Functions allow tasks to run concurrently. A task can start before the previous one completes, enabling non-blocking behaviour.	2 marks
+
+
+1.8	
+Agile is an iterative and incremental approach to software development. It emphasizes flexibility, customer collaboration, and small, rapid releases.
+•	Development is divided into small sprints or iterations.
+•	Continuous feedback and adaptation.
+Waterfall is a linear and sequential approach to software development. Each phase must be completed before the next begins.
+•	Development flows through distinct phases like requirement analysis, design, implementation, testing, deployment, and maintenance.
+•	Emphasises comprehensive documentation and planning.
+Agile is flexible and allows changes throughout the development process, while Waterfall is rigid and does not accommodate changes easily once a phase is completed. It also involves continuous customer feedback, whereas Waterfall gathers feedback typically after the project is completed or at the end of each phase
+
+
